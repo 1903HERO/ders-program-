@@ -2,8 +2,8 @@ name: Ders Programı Botu
 
 on:
   schedule:
-    # GitHub UTC saatini kullanır. TSİ 08:00 için UTC 05:00 yazmalıyız.
-    - cron: '0 21 * * *' 
+    # GitHub UTC saatini kullanır. TSİ 20:00 için UTC 17:00 yazmalıyız.
+    - cron: '0 17 * * *' 
   workflow_dispatch: # İstediğin zaman manuel çalıştırmak için buton ekler
 
 jobs:
